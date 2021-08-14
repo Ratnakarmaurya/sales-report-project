@@ -1,6 +1,6 @@
 from django.urls import path
 from django.urls.resolvers import URLPattern
-from .views import (SaleDetail, home_view, SaleListView , sale_detail_view ,sale_list_view)
+from .views import (home_view,sale_detail_view ,sale_list_view)
 
 app_name ='sale'
 
